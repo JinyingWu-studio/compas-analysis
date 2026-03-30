@@ -18,7 +18,7 @@ This project reproduces the ProPublica COMPAS analysis using Python. The goal is
 - statsmodels
 
 ## How to Run
-1. Open the Jupyter notebook (`compas_analysis.ipynb`)
+1. Open the Jupyter notebook (`Lecture_01_alignment-2.ipynb`)
 2. Run all cells from top to bottom
 3. The analysis will reproduce all results and figures
 
