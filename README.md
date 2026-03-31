@@ -24,3 +24,15 @@ This project reproduces the ProPublica COMPAS analysis using Python. The goal is
 
 ## Notes
 The analysis follows the same conceptual workflow as the original R implementation but is fully implemented in Python.
+
+## Explainability Extension (Assignment 2)
+
+This extension adds explainability methods to the COMPAS analysis, including:
+
+- **LIME** for local, interpretable explanations of individual predictions  
+- **SHAP** for both global (feature importance) and local (waterfall) explanations  
+- **DiCE (Counterfactual Explanations)** to show how minimal changes in features can flip predictions  
+
+We compare explanations for a Black defendant and a White defendant with similar predicted risks to examine how model decisions differ across individuals.
+
+These results highlight that even when predicted risks are similar, the underlying feature contributions and counterfactual changes can differ, raising potential fairness concerns.
