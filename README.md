@@ -59,3 +59,33 @@ We focus on both selection-based metrics (AIR, ME) and error-based metrics (FPR,
 ## Notes
 The analysis is based on observational data and results may reflect underlying data bias.  
 All results are for educational purposes.
+
+# COMPAS Model Audit（Assignment4)
+
+This project evaluates predictive models using the COMPAS dataset.
+
+The analysis includes:
+- Generalization performance
+- Distribution shift
+- Spurious correlation testing
+- Robustness analysis
+- Fairness evaluation across subgroups
+
+The goal is to move beyond accuracy and assess model reliability and accountability.
+
+# COMPAS ML Security Audit(Assignment5)
+
+This project analyzes robustness, fairness, and privacy risks using the COMPAS dataset.
+
+## Contents
+- PGD Evasion Attack
+- Poisoning with Fairness Monitoring
+- Membership Inference Attack
+
+## Key Findings
+- AUC may remain stable while fairness degrades
+- AIR can reveal hidden subgroup risks
+- MI risk is low (AUC ≈ 0.5)
+
+## Author
+Jinying Wu
